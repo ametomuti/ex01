@@ -13,7 +13,8 @@ public class DiceGame {
         System.out.println("Die 2: " + b);
 
         System.out.println("Total value: " + (a + b));
-
+	if(a+b>7)  System.out.println("You won!");
+	else System.out.println("You lose");
     }
 
 }
